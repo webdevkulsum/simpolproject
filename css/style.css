@@ -4,3 +4,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+.menu-bar{
+    
+    background: rgb(255, 255, 255);
+    text-align: right;
+    padding-right: 30px;
+    padding-top: 50px;
+    margin-top: -85px;
+    padding-bottom: 30px;
+}
+.menu-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+.logo img{
+   margin-top: 40px;
+   cursor: pointer;
+   padding-left: 10px;
+   
+ }
+
+.menu-bar ul li {
+    width: 120px;
+    margin: 0px;
+    padding: 10px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
